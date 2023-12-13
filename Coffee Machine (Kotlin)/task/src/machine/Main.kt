@@ -38,7 +38,6 @@ class CoffeeMachine {
                 "fill" -> fillMachine()
                 "take" -> takeMoney()
                 "remaining" -> displayInformation()
-                "exit" -> break
             }
 
             println("Write action (buy, fill, take, remaining, exit)")
